@@ -15,7 +15,7 @@ public class Person {
     @Autowired
     private PersonService personService;
 
-    @RequestMapping(value = "/person", method = RequestMethod.POST)
+    @RequestMapping(value = "/Person", method = RequestMethod.POST)
     protected String savePerson(@RequestParam(name = "name") String name, @RequestParam(name = "date") Date birthdate) {
 
         personService.savePerson(name, birthdate);

@@ -67,10 +67,6 @@ public class AutoEntity {
         return result;
     }
 
-    public PersonEntity getPersonEntity() {
-        return personEntity;
-    }
-
     public void setPersonEntity(PersonEntity personEntity) {
         this.personEntity = personEntity;
     }
