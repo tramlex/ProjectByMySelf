@@ -9,4 +9,6 @@ public interface PersonDao {
     public void savePerson(String name, Date date);
 
     public List<PersonEntity> getAllPerson();
+
+    public void clearPerson();
 }

@@ -23,4 +23,9 @@ public class AutoDaoImpl implements AutoDao {
         this.sessionFactory.getCurrentSession().saveOrUpdate(autoEntity);
     }
 
+    @Override
+    public void clearAuto(){
+        this.sessionFactory.getCurrentSession().createSQLQuery("TRUNCATE table AUTO");
+}
+
 }

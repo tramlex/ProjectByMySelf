@@ -16,4 +16,10 @@ public class AutoServiceImpl implements AutoService{
     public void saveAuto(String model, Integer horsepower, Long ownerId){
         autoDao.saveAuto(model, horsepower, ownerId);
     }
+
+    @Override
+    @Transactional
+    public void clearAuto(){
+        autoDao.clearAuto();
+    }
 }

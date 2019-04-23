@@ -25,4 +25,10 @@ public class PersonServiceImpl implements PersonService {
     public List<PersonEntity> getAllPerson() {
         return personDao.getAllPerson();
     }
+
+    @Override
+    @Transactional
+    public void clearPerson(){
+        personDao.clearPerson();
+    }
 }

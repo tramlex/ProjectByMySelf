@@ -28,4 +28,9 @@ public class PersonDaoImpl implements PersonDao {
         List<PersonEntity> personEntities = sessionFactory.getCurrentSession().createSQLQuery("SELECT * FROM PERSON").addEntity(PersonEntity.class).list();
         return personEntities;
     }
+
+    @Override
+    public void clearPerson(){
+        this.sessionFactory.getCurrentSession().createSQLQuery("TRUNCATE TABLE PERSON");
+    }
 }
