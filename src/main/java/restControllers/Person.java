@@ -2,13 +2,9 @@ package restControllers;
 
 
 import database.person.service.PersonService;
+import model.PersonModel;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.sql.Date;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class Person {
@@ -16,9 +12,9 @@ public class Person {
     private PersonService personService;
 
     @RequestMapping(value = "/Person", method = RequestMethod.POST)
-    protected String savePerson(@RequestParam(name = "name") String name, @RequestParam(name = "date") Date birthdate) {
+    public String savePerson(@RequestBody PersonModel personModel) {
+        personService.savePerson(personModel);
 
-        personService.savePerson(name, birthdate);
-        return "redirect:person.jsp";
+        return "";
     }
 }

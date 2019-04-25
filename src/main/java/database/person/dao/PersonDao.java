@@ -1,12 +1,11 @@
 package database.person.dao;
 
 import database.entities.PersonEntity;
-
-import java.sql.Date;
+import model.PersonModel;
 import java.util.List;
 
 public interface PersonDao {
-    public void savePerson(String name, Date date);
+    public void savePerson(PersonModel personModel);
 
     public List<PersonEntity> getAllPerson();
 

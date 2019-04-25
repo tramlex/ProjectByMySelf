@@ -1,6 +1,7 @@
 package database.person.dao;
 
 import database.entities.PersonEntity;
+import model.PersonModel;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -15,10 +16,11 @@ public class PersonDaoImpl implements PersonDao {
     private SessionFactory sessionFactory;
 
     @Override
-    public void savePerson(String name, Date date) {
+    public void savePerson(PersonModel personModel) {
         PersonEntity personEntity = new PersonEntity();
-        personEntity.setName(name);
-        personEntity.setBirthdate(date);
+        personEntity.setId(personModel.getId());
+        personEntity.setName(personModel.getName());
+        personEntity.setBirthdate(personModel.getBirthdate());
         this.sessionFactory.getCurrentSession().save(personEntity);
     }
 

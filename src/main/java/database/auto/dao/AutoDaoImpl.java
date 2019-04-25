@@ -2,6 +2,7 @@ package database.auto.dao;
 
 import database.entities.AutoEntity;
 import database.entities.PersonEntity;
+import model.CarModel;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -13,12 +14,13 @@ public class AutoDaoImpl implements AutoDao {
     private SessionFactory sessionFactory;
 
     @Override
-    public void saveAuto(String model, Integer horsepower, Long ownerId) {
+    public void saveAuto(CarModel carModel) {
 
         AutoEntity autoEntity = new AutoEntity();
-        autoEntity.setModel(model);
-        autoEntity.setHorsepower(horsepower);
-        PersonEntity personEntity = sessionFactory.getCurrentSession().find(PersonEntity.class,ownerId);
+        autoEntity.setId(carModel.getId());
+        autoEntity.setModel(carModel.getModel());
+        autoEntity.setHorsepower(carModel.getHorsepower());
+        PersonEntity personEntity = sessionFactory.getCurrentSession().find(PersonEntity.class,carModel.getOwnerId());
         autoEntity.setPersonEntity(personEntity);
         this.sessionFactory.getCurrentSession().saveOrUpdate(autoEntity);
     }

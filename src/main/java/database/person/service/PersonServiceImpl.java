@@ -2,11 +2,11 @@ package database.person.service;
 
 import database.entities.PersonEntity;
 import database.person.dao.PersonDao;
+import model.PersonModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
-import java.sql.Date;
 import java.util.List;
 
 @Service
@@ -16,8 +16,8 @@ public class PersonServiceImpl implements PersonService {
 
     @Override
     @Transactional
-    public void savePerson(String name, Date date) {
-        personDao.savePerson(name, date);
+    public void savePerson(PersonModel personModel) {
+        personDao.savePerson(personModel);
     }
 
     @Override
@@ -28,7 +28,8 @@ public class PersonServiceImpl implements PersonService {
 
     @Override
     @Transactional
-    public void clearPerson(){
-        personDao.clearPerson();
+    public void clearPerson() {
+      personDao.clearPerson();
     }
+
 }

@@ -1,6 +1,8 @@
 package database.auto.service;
 
+import model.CarModel;
+
 public interface AutoService {
-    public void saveAuto(String model, Integer horsepower, Long ownerId);
+    public void saveAuto(CarModel carModel);
     public void clearAuto();
 }
