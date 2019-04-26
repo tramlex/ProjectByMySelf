@@ -1,7 +1,14 @@
 package restControllers;
 
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Statistics {
+
+    @RequestMapping(value = "/statistics" , method = RequestMethod.GET)
+    public String savePerson() {
+        return "";
+    }
 }
