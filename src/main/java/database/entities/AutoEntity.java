@@ -8,12 +8,7 @@ public class AutoEntity {
     private long id;
     private String model;
     private int horsepower;
-
-    @ManyToOne (fetch=FetchType.LAZY,
-            cascade=CascadeType.ALL)
-    @JoinColumn (name="ownerId")
-    private PersonEntity personEntity;
-
+    private long ownerId;
 
     @Id
     @Column(name = "ID", nullable = false)
@@ -67,7 +62,13 @@ public class AutoEntity {
         return result;
     }
 
-    public void setPersonEntity(PersonEntity personEntity) {
-        this.personEntity = personEntity;
+    @Basic
+    @Column(name = "ownerId", nullable = false)
+    public long getOwnerId() {
+        return ownerId;
+    }
+
+    public void setOwnerId(long ownerId) {
+        this.ownerId = ownerId;
     }
 }

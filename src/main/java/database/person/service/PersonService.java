@@ -7,7 +7,7 @@ import java.sql.Date;
 import java.util.List;
 
 public interface PersonService {
-    public void savePerson(PersonModel personModel);
+    public boolean savePerson(PersonModel personModel);
 
     public List<PersonEntity> getAllPerson();
 

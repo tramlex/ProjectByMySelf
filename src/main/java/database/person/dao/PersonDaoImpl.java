@@ -6,6 +6,7 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import java.util.Date;
 import java.util.List;
 
 @Repository
@@ -15,12 +16,26 @@ public class PersonDaoImpl implements PersonDao {
     private SessionFactory sessionFactory;
 
     @Override
-    public void savePerson(PersonModel personModel) {
+    public boolean savePerson(PersonModel personModel) {
         PersonEntity personEntity = new PersonEntity();
+
+        if (personModel.getName() == null) {
+            return false;
+        }
         personEntity.setId(personModel.getId());
+
+        if (sessionFactory.getCurrentSession().find(PersonEntity.class, personModel.getId()) != null) {
+            return false;
+        }
         personEntity.setName(personModel.getName());
+
+        if (personModel.getBirthdate().after(new Date(System.currentTimeMillis()))) {
+            return false;
+        }
         personEntity.setBirthdate(personModel.getBirthdate());
-        this.sessionFactory.getCurrentSession().save(personEntity);
+
+        sessionFactory.getCurrentSession().save(personEntity);
+        return true;
     }
 
     @SuppressWarnings("unchecked")
@@ -31,7 +46,7 @@ public class PersonDaoImpl implements PersonDao {
     }
 
     @Override
-    public void clearPerson(){
+    public void clearPerson() {
         this.sessionFactory.getCurrentSession().createSQLQuery("TRUNCATE TABLE PERSON");
     }
 }

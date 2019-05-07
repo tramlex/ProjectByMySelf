@@ -3,6 +3,8 @@ package restControllers;
 import database.auto.service.AutoService;
 import model.CarModel;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -10,10 +12,13 @@ public class Car {
     @Autowired
     private AutoService autoService;
 
-    @RequestMapping(value = "/car", method = RequestMethod.POST)
-    protected String saveAuto(@RequestBody CarModel carModel) {
+    @PostMapping(value = "/car")
+    public ResponseEntity saveAuto(@RequestBody CarModel carModel) {
 
-        autoService.saveAuto(carModel);
-        return "";
+        if (autoService.saveAuto(carModel) == false) {
+            return new ResponseEntity(HttpStatus.BAD_REQUEST);
+        }
+
+        return new ResponseEntity(HttpStatus.OK);
     }
 }

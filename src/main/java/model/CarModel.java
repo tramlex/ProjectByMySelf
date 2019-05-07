@@ -7,12 +7,6 @@ public class CarModel {
     private Integer horsepower;
     private Long ownerId;
 
-    public CarModel(long id, String model, Integer horsepower, long ownerId) {
-        this.id = id;
-        this.model = model;
-        this.horsepower = horsepower;
-        this.ownerId = ownerId;
-    }
 
     public long getId() {
         return id;
@@ -42,7 +36,7 @@ public class CarModel {
         return ownerId;
     }
 
-    public void setOwnerId(Long ownerId) {
+    public void setOwnerId(long ownerId) {
         this.ownerId = ownerId;
     }
 }

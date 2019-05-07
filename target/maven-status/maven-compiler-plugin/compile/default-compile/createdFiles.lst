@@ -1,7 +1,5 @@
-model\EmployeeDAO.class
 database\auto\service\AutoServiceImpl.class
 model\CarModel.class
-model\PersonModelDao.class
 database\auto\service\AutoService.class
 database\person\service\PersonService.class
 restControllers\Statistics.class
@@ -15,7 +13,5 @@ model\PersonModel.class
 database\entities\PersonEntity.class
 restControllers\PersonWithCars.class
 database\person\dao\PersonDao.class
-model\Employee.class
 database\person\service\PersonServiceImpl.class
 restControllers\Car.class
-model\CarModelDao.class

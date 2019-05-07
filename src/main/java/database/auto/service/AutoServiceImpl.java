@@ -14,8 +14,11 @@ public class AutoServiceImpl implements AutoService {
 
     @Override
     @Transactional
-    public void saveAuto(CarModel carModel) {
-        autoDao.saveAuto(carModel);
+    public boolean saveAuto(CarModel carModel) {
+        if (autoDao.saveAuto(carModel) == true) {
+            return true;
+        }
+        return false;
     }
 
     @Override

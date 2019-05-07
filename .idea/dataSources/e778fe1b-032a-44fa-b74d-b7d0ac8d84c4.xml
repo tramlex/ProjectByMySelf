@@ -76,7 +76,6 @@
     <column id="21" parent="6" name="OWNERID">
       <Position>4</Position>
       <DataType>BIGINT(19)|-5s</DataType>
-      <NotNull>1</NotNull>
     </column>
     <index id="22" parent="6" name="PRIMARY_KEY_1">
       <NameSurrogate>1</NameSurrogate>

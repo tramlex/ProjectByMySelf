@@ -16,8 +16,11 @@ public class PersonServiceImpl implements PersonService {
 
     @Override
     @Transactional
-    public void savePerson(PersonModel personModel) {
-        personDao.savePerson(personModel);
+    public boolean savePerson(PersonModel personModel) {
+        if (personDao.savePerson(personModel) == true) {
+            return true;
+        }
+        return false;
     }
 
     @Override
@@ -29,7 +32,7 @@ public class PersonServiceImpl implements PersonService {
     @Override
     @Transactional
     public void clearPerson() {
-      personDao.clearPerson();
+        personDao.clearPerson();
     }
 
 }
