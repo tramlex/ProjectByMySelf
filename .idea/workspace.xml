@@ -7,51 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59e78267-5c20-4016-ab67-c93cf718f50c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/PersonWithCars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Statistics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectByMySelf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectByMySelf.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/auto/dao/AutoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/auto/dao/AutoDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/auto/dao/AutoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/auto/dao/AutoDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/auto/service/AutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/auto/service/AutoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/auto/service/AutoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/auto/service/AutoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/person/dao/PersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/person/dao/PersonDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/person/dao/PersonDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/person/dao/PersonDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/person/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/person/service/PersonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/person/service/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/person/service/PersonServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restControllers/Clear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restControllers/Clear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restControllers/PersonWithCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restControllers/PersonWithCars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/restControllers/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restControllers/Statistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WebApp.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/auto/dao/AutoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/auto/dao/AutoDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/auto/dao/AutoDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/auto/dao/AutoDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/auto/service/AutoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/auto/service/AutoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/auto/service/AutoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/auto/service/AutoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/person/dao/PersonDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/person/dao/PersonDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/person/dao/PersonDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/person/dao/PersonDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/person/service/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/person/service/PersonService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/person/service/PersonServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/person/service/PersonServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/restControllers/Clear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/restControllers/Clear.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/restControllers/PersonWithCars.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/restControllers/PersonWithCars.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/restControllers/Statistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/restControllers/Statistics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/spring-web-5.1.5.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/auto/dao/AutoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/auto/dao/AutoDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/auto/dao/AutoDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/auto/dao/AutoDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/auto/service/AutoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/auto/service/AutoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/auto/service/AutoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/auto/service/AutoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/person/dao/PersonDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/person/dao/PersonDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/person/dao/PersonDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/person/dao/PersonDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/person/service/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/person/service/PersonService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/person/service/PersonServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/person/service/PersonServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/restControllers/Clear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/restControllers/Clear.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/restControllers/PersonWithCars.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/restControllers/PersonWithCars.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/restControllers/Statistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/restControllers/Statistics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,14 +55,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Statistics.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Statistics.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Statistics.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+              <caret line="20" column="116" selection-start-line="20" selection-start-column="116" selection-end-line="20" selection-end-column="116" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -115,25 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutoServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/service/AutoServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AutoDaoImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AutoDaoImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/dao/AutoDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="357">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2303#2311#0" expanded="true" />
@@ -247,18 +203,18 @@
         <option value="$PROJECT_DIR$/src/main/java/model/PersonWithCars.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/person/service/PersonService.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/person/service/PersonServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/restControllers/Clear.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/person/dao/PersonDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Statistics.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/auto/dao/AutoDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/auto/service/AutoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/auto/service/AutoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/restControllers/Statistics.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/person/dao/PersonDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/restControllers/PersonWithCars.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/auto/dao/AutoDaoImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/restControllers/Statistics.java" />
       </list>
     </option>
   </component>
@@ -612,12 +568,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556001338828</updated>
-      <workItem from="1556001342368" duration="111970000" />
+      <workItem from="1556001342368" duration="113128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111970000" />
+    <option name="totallyTimeSpent" value="113128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -955,13 +911,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="138" column="23" selection-start-line="138" selection-start-column="23" selection-end-line="138" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1045,16 +994,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e778fe1b-032a-44fa-b74d-b7d0ac8d84c4/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Statistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Clear.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1111,11 +1050,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/dao/AutoDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="357">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2303#2311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="116" selection-start-line="20" selection-start-column="116" selection-end-line="20" selection-end-column="116" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
