@@ -15,10 +15,9 @@ public class Clear {
     private PersonService personService;
 
     @RequestMapping(value = "/clear" , method = RequestMethod.GET)
-    protected String clearData(){
+    public void clearData(){
     autoService.clearAuto();
     personService.clearPerson();
-    return "";
     }
 
 }

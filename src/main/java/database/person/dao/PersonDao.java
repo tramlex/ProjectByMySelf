@@ -1,14 +1,12 @@
 package database.person.dao;
 
-import database.entities.PersonEntity;
 import model.PersonModel;
-
-import java.util.List;
+import model.PersonWithCars;
 
 public interface PersonDao {
     public boolean savePerson(PersonModel personModel);
 
-    public List<PersonEntity> getAllPerson();
+    public PersonWithCars getPersonByID(long id);
 
     public void clearPerson();
 }

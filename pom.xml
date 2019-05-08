@@ -136,7 +136,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
-      <version>${org.springframework.version}</version>
+      <version>5.1.6.RELEASE</version>
     </dependency>
 
     <!-- Spring MVC for Servlet Environments (depends on spring-core, spring-beans,

@@ -2,6 +2,7 @@ package database.auto.service;
 
 import database.auto.dao.AutoDao;
 import model.CarModel;
+import model.Statistics;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,6 +20,12 @@ public class AutoServiceImpl implements AutoService {
             return true;
         }
         return false;
+    }
+
+    @Override
+    @Transactional
+    public Statistics getStatistics(){
+        return autoDao.getStatistics();
     }
 
     @Override

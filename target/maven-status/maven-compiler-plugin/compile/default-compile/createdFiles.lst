@@ -1,5 +1,6 @@
 database\auto\service\AutoServiceImpl.class
 model\CarModel.class
+model\Statistics.class
 database\auto\service\AutoService.class
 database\person\service\PersonService.class
 restControllers\Statistics.class
@@ -10,6 +11,7 @@ database\person\dao\PersonDaoImpl.class
 restControllers\Clear.class
 restControllers\Person.class
 model\PersonModel.class
+model\PersonWithCars.class
 database\entities\PersonEntity.class
 restControllers\PersonWithCars.class
 database\person\dao\PersonDao.class

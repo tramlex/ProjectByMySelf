@@ -3,6 +3,7 @@ package database.person.service;
 import database.entities.PersonEntity;
 import database.person.dao.PersonDao;
 import model.PersonModel;
+import model.PersonWithCars;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -25,8 +26,8 @@ public class PersonServiceImpl implements PersonService {
 
     @Override
     @Transactional
-    public List<PersonEntity> getAllPerson() {
-        return personDao.getAllPerson();
+    public PersonWithCars getPersonByID(long id){
+        return personDao.getPersonByID(id);
     }
 
     @Override
