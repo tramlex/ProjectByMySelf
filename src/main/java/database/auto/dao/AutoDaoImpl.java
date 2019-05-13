@@ -19,35 +19,40 @@ public class AutoDaoImpl implements AutoDao {
     @Override
     public boolean saveAuto(CarModel carModel) {
         AutoEntity autoEntity = new AutoEntity();
-        if (sessionFactory.getCurrentSession().find(AutoEntity.class, carModel.getId()) != null) {
+        try {
+            if (sessionFactory.getCurrentSession().find(AutoEntity.class, carModel.getId()) != null) {
+                return false;
+            }
+            autoEntity.setId(carModel.getId());
+
+
+            if (carModel.getModel().charAt(0) == ' ' || carModel.getModel().charAt(0) == '-' || carModel.getModel().indexOf(" " + 1) == ' ') {
+                return false;
+            }
+            autoEntity.setModel(carModel.getModel());
+
+            if (carModel.getHorsepower() <= 0) {
+                return false;
+            }
+            autoEntity.setHorsepower(carModel.getHorsepower());
+
+
+            Calendar birthdate = Calendar.getInstance();
+            Calendar curenttime = Calendar.getInstance();
+            birthdate.setTime(sessionFactory.getCurrentSession().find(PersonEntity.class, carModel.getOwnerId()).getBirthdate());
+            curenttime.setTime(new Date(System.currentTimeMillis()));
+
+            //||sessionFactory.getCurrentSession().find(PersonEntity.class, carModel.getOwnerId()).getBirthdate().after(new Date(System.currentTimeMillis() - 31556926000L)) == false
+            if (sessionFactory.getCurrentSession().find(PersonEntity.class, carModel.getOwnerId()) == null || (curenttime.get(Calendar.YEAR) - birthdate.get(Calendar.YEAR)) < 18) {
+                return false;
+            }
+            autoEntity.setOwnerId(carModel.getOwnerId());
+
+            sessionFactory.getCurrentSession().save(autoEntity);
+        }
+        catch (Exception e){
             return false;
         }
-        autoEntity.setId(carModel.getId());
-
-
-        if (carModel.getModel().charAt(0) == ' ' || carModel.getModel().charAt(0) == '-' || carModel.getModel().indexOf(" " + 1) == ' ') {
-            return false;
-        }
-        autoEntity.setModel(carModel.getModel());
-
-        if (carModel.getHorsepower() <= 0) {
-            return false;
-        }
-        autoEntity.setHorsepower(carModel.getHorsepower());
-
-
-        Calendar birthdate = Calendar.getInstance();
-        Calendar curenttime = Calendar.getInstance();
-        birthdate.setTime(sessionFactory.getCurrentSession().find(PersonEntity.class, carModel.getOwnerId()).getBirthdate());
-        curenttime.setTime(new Date(System.currentTimeMillis()));
-
-        //||sessionFactory.getCurrentSession().find(PersonEntity.class, carModel.getOwnerId()).getBirthdate().after(new Date(System.currentTimeMillis() - 31556926000L)) == false
-        if(sessionFactory.getCurrentSession().find(PersonEntity.class,carModel.getOwnerId())==null || (curenttime.get(Calendar.YEAR)-birthdate.get(Calendar.YEAR))<18){
-            return false;
-        }
-        autoEntity.setOwnerId(carModel.getOwnerId());
-
-        sessionFactory.getCurrentSession().save(autoEntity);
         return true;
     }
 

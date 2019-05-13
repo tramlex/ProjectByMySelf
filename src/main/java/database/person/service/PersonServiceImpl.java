@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.text.ParseException;
 import java.util.List;
 
 @Service
@@ -17,11 +18,17 @@ public class PersonServiceImpl implements PersonService {
 
     @Override
     @Transactional
-    public boolean savePerson(PersonModel personModel) {
+    public boolean savePerson(PersonModel personModel) throws ParseException {
         if (personDao.savePerson(personModel) == true) {
             return true;
         }
         return false;
+    }
+
+    @Override
+    @Transactional
+    public boolean checkForperson(long personid){
+        return personDao.checkForperson(personid);
     }
 
     @Override

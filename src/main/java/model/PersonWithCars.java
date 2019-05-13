@@ -1,13 +1,12 @@
 package model;
 
-import java.lang.reflect.Array;
 import java.util.Date;
 
 public class PersonWithCars {
 
     private Long id;
     private String name;
-    private Date birthdate;
+    private String birthdate;
     private String[] cars;
 
     public long getId() {
@@ -26,11 +25,11 @@ public class PersonWithCars {
         this.name = name;
     }
 
-    public Date getBirthdate() {
+    public String getBirthdate() {
         return birthdate;
     }
 
-    public void setBirthdate(Date birthdate) {
+    public void setBirthdate(String birthdate) {
         this.birthdate = birthdate;
     }
 

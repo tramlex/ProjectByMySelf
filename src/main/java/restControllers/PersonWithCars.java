@@ -2,7 +2,9 @@ package restControllers;
 
 import database.person.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 
@@ -13,10 +15,16 @@ public class PersonWithCars {
     private PersonService personService;
 
 
-    @RequestMapping(value = "/personwithcars?personid={id}", method = RequestMethod.GET ,  produces = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/personwithcars", method = RequestMethod.GET ,  produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
-    public model.PersonWithCars getPersonWithCars(@PathVariable long id) {
-        return personService.getPersonByID(id);
+    public ResponseEntity getPersonWithCars(@RequestParam long personid) {
+
+
+        if(personService.checkForperson(personid)== false){
+            return new ResponseEntity(HttpStatus.NOT_FOUND);
+        }
+
+        return new ResponseEntity(HttpStatus.OK).ok(personService.getPersonByID(personid));
     }
 
 }
