@@ -10,10 +10,6 @@ public class AutoEntity {
     private int horsepower;
     private long ownerId;
 
-   // @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    //@JoinColumn(name = "ownerId")
-    //private PersonEntity personEntity;
-
     @Id
     @Column(name = "ID", nullable = false)
     public long getId() {

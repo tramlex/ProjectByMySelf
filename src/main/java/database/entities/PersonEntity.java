@@ -4,7 +4,6 @@ import restControllers.Person;
 
 import javax.persistence.*;
 import java.util.Date;
-import java.util.List;
 
 @Entity
 @Table(name = "PERSON", schema = "PUBLIC", catalog = "TEST")
@@ -12,9 +11,6 @@ public class PersonEntity {
     private long id;
     private String name;
     private Date birthdate;
-
-    //@OneToMany(fetch = FetchType.LAZY, mappedBy = "personEntity",cascade = CascadeType.ALL)
-    //private List<AutoEntity> autoEntities;
 
 
     @Id

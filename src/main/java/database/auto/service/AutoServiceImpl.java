@@ -24,7 +24,7 @@ public class AutoServiceImpl implements AutoService {
 
     @Override
     @Transactional
-    public Statistics getStatistics(){
+    public Statistics getStatistics() {
         return autoDao.getStatistics();
     }
 

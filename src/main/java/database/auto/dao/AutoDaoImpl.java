@@ -7,6 +7,7 @@ import model.Statistics;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+
 import java.util.*;
 
 
@@ -42,29 +43,27 @@ public class AutoDaoImpl implements AutoDao {
             birthdate.setTime(sessionFactory.getCurrentSession().find(PersonEntity.class, carModel.getOwnerId()).getBirthdate());
             curenttime.setTime(new Date(System.currentTimeMillis()));
 
-            //||sessionFactory.getCurrentSession().find(PersonEntity.class, carModel.getOwnerId()).getBirthdate().after(new Date(System.currentTimeMillis() - 31556926000L)) == false
             if (sessionFactory.getCurrentSession().find(PersonEntity.class, carModel.getOwnerId()) == null || (curenttime.get(Calendar.YEAR) - birthdate.get(Calendar.YEAR)) < 18) {
                 return false;
             }
             autoEntity.setOwnerId(carModel.getOwnerId());
 
             sessionFactory.getCurrentSession().save(autoEntity);
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             return false;
         }
         return true;
     }
 
     @Override
-    public Statistics getStatistics(){
+    public Statistics getStatistics() {
         Statistics statistics = new Statistics();
-        statistics.setPersoncount((Long)sessionFactory.getCurrentSession().createQuery("select count(*) from PersonEntity ").uniqueResult());
-        statistics.setCarcount((Long)sessionFactory.getCurrentSession().createQuery("select count(*) from AutoEntity ").uniqueResult());
+        statistics.setPersoncount((Long) sessionFactory.getCurrentSession().createQuery("select count(*) from PersonEntity ").uniqueResult());
+        statistics.setCarcount((Long) sessionFactory.getCurrentSession().createQuery("select count(*) from AutoEntity ").uniqueResult());
 
         List<String> models = sessionFactory.getCurrentSession().createQuery("select model from AutoEntity ").list();
-        for(int i = 0 ;i<models.size();i++){
-            models.set(i,models.get(i).toLowerCase().substring(0,models.get(i).toLowerCase().indexOf("-")));
+        for (int i = 0; i < models.size(); i++) {
+            models.set(i, models.get(i).toLowerCase().substring(0, models.get(i).toLowerCase().indexOf("-")));
         }
         Set<String> uniqueModels = new HashSet<String>(models);
         statistics.setUniquevendorcount(uniqueModels.size());

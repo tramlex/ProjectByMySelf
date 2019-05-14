@@ -27,13 +27,13 @@ public class PersonServiceImpl implements PersonService {
 
     @Override
     @Transactional
-    public boolean checkForperson(long personid){
+    public boolean checkForperson(long personid) {
         return personDao.checkForperson(personid);
     }
 
     @Override
     @Transactional
-    public PersonWithCars getPersonByID(long id){
+    public PersonWithCars getPersonByID(long id) {
         return personDao.getPersonByID(id);
     }
 

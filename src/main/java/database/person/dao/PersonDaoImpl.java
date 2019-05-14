@@ -8,6 +8,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -32,19 +33,19 @@ public class PersonDaoImpl implements PersonDao {
             }
             personEntity.setName(personModel.getName());
 
-                if (personModel.getId() == null || sessionFactory.getCurrentSession().find(PersonEntity.class,personModel.getId())!=null) {
-                    return false;
-                }
-                personEntity.setId(personModel.getId());
+            if (personModel.getId() == null || sessionFactory.getCurrentSession().find(PersonEntity.class, personModel.getId()) != null) {
+                return false;
+            }
+            personEntity.setId(personModel.getId());
 
-                SimpleDateFormat dt = new SimpleDateFormat("dd.MM.yyyy");
-                dt.setLenient(false);
-                if (dt.parse(personModel.getBirthdate()).after(new Date(System.currentTimeMillis()))) {
-                    return false;
-                }
-                personEntity.setBirthdate(dt.parse(personModel.getBirthdate()));
+            SimpleDateFormat dt = new SimpleDateFormat("dd.MM.yyyy");
+            dt.setLenient(false);
+            if (dt.parse(personModel.getBirthdate()).after(new Date(System.currentTimeMillis()))) {
+                return false;
+            }
+            personEntity.setBirthdate(dt.parse(personModel.getBirthdate()));
 
-                sessionFactory.getCurrentSession().save(personEntity);
+            sessionFactory.getCurrentSession().save(personEntity);
 
         } catch (Exception e) {
             return false;
