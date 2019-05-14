@@ -1,19 +1,19 @@
 package database.person.dao;
 
+import database.entities.AutoEntity;
 import database.entities.PersonEntity;
 import model.PersonModel;
 import model.PersonWithCars;
-import org.h2.jdbc.JdbcSQLException;
 import org.hibernate.SessionFactory;
-import org.hibernate.exception.ConstraintViolationException;
+import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import org.springframework.web.util.NestedServletException;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
 
 @Repository
 public class PersonDaoImpl implements PersonDao {
@@ -32,21 +32,20 @@ public class PersonDaoImpl implements PersonDao {
             }
             personEntity.setName(personModel.getName());
 
+                if (personModel.getId() == null || sessionFactory.getCurrentSession().find(PersonEntity.class,personModel.getId())!=null) {
+                    return false;
+                }
+                personEntity.setId(personModel.getId());
 
-            if (personModel.getId() == null) {
-                return false;
-            }
-            personEntity.setId(personModel.getId());
+                SimpleDateFormat dt = new SimpleDateFormat("dd.MM.yyyy");
+                dt.setLenient(false);
+                if (dt.parse(personModel.getBirthdate()).after(new Date(System.currentTimeMillis()))) {
+                    return false;
+                }
+                personEntity.setBirthdate(dt.parse(personModel.getBirthdate()));
 
-            SimpleDateFormat dt = new SimpleDateFormat("dd.MM.yyyy");
-            dt.setLenient(false);
-            if (dt.parse(personModel.getBirthdate()).after(new Date(System.currentTimeMillis()))) {
-                return false;
-            }
-            personEntity.setBirthdate(dt.parse(personModel.getBirthdate()));
+                sessionFactory.getCurrentSession().save(personEntity);
 
-            sessionFactory.getCurrentSession().save(personEntity);
-                
         } catch (Exception e) {
             return false;
         }
@@ -59,6 +58,7 @@ public class PersonDaoImpl implements PersonDao {
     public PersonWithCars getPersonByID(long id) {
         PersonWithCars personWithCars = new PersonWithCars();
 
+        PersonEntity personEntity = new PersonEntity();
         personWithCars.setId(id);
 
 
@@ -67,9 +67,8 @@ public class PersonDaoImpl implements PersonDao {
         personWithCars.setBirthdate(dt.format(sessionFactory.getCurrentSession().find(PersonEntity.class, id).getBirthdate()));
         personWithCars.setName(sessionFactory.getCurrentSession().find(PersonEntity.class, id).getName());
 
-        List<String> cars = sessionFactory.getCurrentSession().createSQLQuery("SELECT MODEL FROM AUTO where OWNERID=" + id).list();
-        personWithCars.setCars(cars.toArray(new String[0]));
-
+        List<AutoEntity> autoEntities = sessionFactory.getCurrentSession().createSQLQuery("SELECT * FROM AUTO where ownerId=" + id).addEntity(AutoEntity.class).list();
+        personWithCars.setCars(autoEntities);
         return personWithCars;
     }
 

@@ -1,13 +1,15 @@
 package model;
 
-import java.util.Date;
+import database.entities.AutoEntity;
+
+import java.util.List;
 
 public class PersonWithCars {
 
     private Long id;
     private String name;
     private String birthdate;
-    private String[] cars;
+    private List<AutoEntity> cars;
 
     public long getId() {
         return id;
@@ -33,11 +35,11 @@ public class PersonWithCars {
         this.birthdate = birthdate;
     }
 
-    public String[] getCars() {
+    public List<AutoEntity> getCars() {
         return cars;
     }
 
-    public void setCars(String[] cars) {
+    public void setCars(List<AutoEntity> cars) {
         this.cars = cars;
     }
 }

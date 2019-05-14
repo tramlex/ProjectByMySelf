@@ -1,7 +1,10 @@
 package database.entities;
 
+import restControllers.Person;
+
 import javax.persistence.*;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Table(name = "PERSON", schema = "PUBLIC", catalog = "TEST")
@@ -9,6 +12,10 @@ public class PersonEntity {
     private long id;
     private String name;
     private Date birthdate;
+
+    //@OneToMany(fetch = FetchType.LAZY, mappedBy = "personEntity",cascade = CascadeType.ALL)
+    //private List<AutoEntity> autoEntities;
+
 
     @Id
     @Column(name = "ID", nullable = false)
@@ -61,4 +68,5 @@ public class PersonEntity {
         result = 31 * result + (birthdate != null ? birthdate.hashCode() : 0);
         return result;
     }
+
 }

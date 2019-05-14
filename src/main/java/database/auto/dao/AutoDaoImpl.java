@@ -63,6 +63,9 @@ public class AutoDaoImpl implements AutoDao {
         statistics.setCarcount((Long)sessionFactory.getCurrentSession().createQuery("select count(*) from AutoEntity ").uniqueResult());
 
         List<String> models = sessionFactory.getCurrentSession().createQuery("select model from AutoEntity ").list();
+        for(int i = 0 ;i<models.size();i++){
+            models.set(i,models.get(i).toLowerCase().substring(0,models.get(i).toLowerCase().indexOf("-")));
+        }
         Set<String> uniqueModels = new HashSet<String>(models);
         statistics.setUniquevendorcount(uniqueModels.size());
         return statistics;
