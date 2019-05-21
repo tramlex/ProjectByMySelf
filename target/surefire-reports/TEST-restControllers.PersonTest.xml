@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="restControllers.PersonTest" time="0.085" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="restControllers.PersonTest" time="0.181" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="idea.version" value="2018.1.6"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,16 +61,15 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="savePersonTest" classname="restControllers.PersonTest" time="0.084">
-    <failure message="Status expected:&lt;200&gt; but was:&lt;405&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<405>
-	at restControllers.PersonTest.savePersonTest(PersonTest.java:56)
+  <testcase name="savePersonTest" classname="restControllers.PersonTest" time="0.181">
+    <failure message="Response status expected:&lt;200&gt; but was:&lt;400&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Response status expected:<200> but was:<400>
+	at restControllers.PersonTest.savePersonTest(PersonTest.java:61)
 ]]></failure>
     <system-err><![CDATA[[main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-[main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4b6690c0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@46268f08, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2a76840c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71454b9d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@eda25e5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7cf6a5f9]
+[main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@66565121, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2fc6f97f, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3d2ee678, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6179e425, org.springframework.test.context.transaction.TransactionalTestExecutionListener@35f26e72, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2d6764b2]
 [main] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
-[main] WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
 ]]></system-err>
   </testcase>
 </testsuite>
