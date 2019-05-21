@@ -1,0 +1,5 @@
+restControllers\CarTest.class
+restControllers\PersonTest.class
+restControllers\ClearTest.class
+restControllers\StatisticsTest.class
+restControllers\PersonWithCarsTest.class
