@@ -1,8 +1,7 @@
 package restControllers;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
-import com.fasterxml.jackson.databind.SerializationFeature;
+import com.google.gson.Gson;
+import database.entities.PersonEntity;
 import database.person.service.PersonService;
 import model.PersonModel;
 import org.junit.Before;
@@ -11,6 +10,7 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.mockito.runners.MockitoJUnitRunner;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -18,12 +18,10 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
-import java.nio.charset.Charset;
-
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@RunWith(SpringJUnit4ClassRunner.class)
+@RunWith(MockitoJUnitRunner.class)
 @ContextConfiguration(locations = "classpath*: resources/*.xml")
 @WebAppConfiguration
 public class PersonTest {
@@ -36,6 +34,8 @@ public class PersonTest {
 
     @InjectMocks
     private Person person;
+
+
 
     @Before
     public void init() {
@@ -52,13 +52,17 @@ public class PersonTest {
         personModel.setBirthdate("01.01.2000");
         //person.savePerson(personModel);
 
-        ObjectMapper mapper = new ObjectMapper();
-        mapper.configure(SerializationFeature.WRAP_ROOT_VALUE, false);
-        ObjectWriter ow = mapper.writer().withDefaultPrettyPrinter();
-        String requestJson=ow.writeValueAsString(personModel);
+        Gson gson = new Gson();
+        String json = gson.toJson(personModel);
 
-        mockMvc.perform(post("/person").contentType(MediaType.APPLICATION_JSON_UTF8).content(requestJson))
+        personService.clearPerson();
+
+        System.out.println(json);
+
+        mockMvc.perform(post("/person").content(json).contentType(MediaType.APPLICATION_JSON_VALUE))
                 .andExpect(status().is(200));
+
+        System.out.println(personService.getPersonByID(1));
 
                // .andExpect(jsonPath("$[0].id",is(1)))
                // .andExpect(jsonPath("$[0].name",is("Alex")))
