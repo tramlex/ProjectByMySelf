@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: restControllers.PersonTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.641 sec <<< FAILURE! - in restControllers.PersonTest
+savePersonTest(restControllers.PersonTest)  Time elapsed: 0.152 sec  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException
+	at restControllers.PersonTest.savePersonTest(PersonTest.java:55)
+Caused by: java.lang.NullPointerException
+	at restControllers.PersonTest.savePersonTest(PersonTest.java:55)
+
