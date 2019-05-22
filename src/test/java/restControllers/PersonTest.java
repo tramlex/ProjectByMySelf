@@ -31,8 +31,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class PersonTest {
 
 
-    private MockMvc mockMvc;
-
 //    @Mock
 ////    private PersonService personService;
 ////
@@ -46,6 +44,8 @@ public class PersonTest {
 ////        MockitoAnnotations.initMocks(this);
 ////        mockMvc = MockMvcBuilders.standaloneSetup(person).build();
 ////    }
+
+    private MockMvc mockMvc;
 
     @Autowired
     private WebApplicationContext webApplicationContext;
