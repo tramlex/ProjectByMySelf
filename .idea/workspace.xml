@@ -9,13 +9,36 @@
     <list default="true" id="59e78267-5c20-4016-ab67-c93cf718f50c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/database/auto/service/AutoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/database/auto/service/AutoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/database/person/service/PersonServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/database/person/service/PersonServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/restControllers/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restControllers/CarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/restControllers/ClearTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restControllers/ClearTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/restControllers/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restControllers/PersonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/restControllers/PersonWithCarsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restControllers/PersonWithCarsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/restControllers/StatisticsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restControllers/StatisticsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-database.auto.service.AutoServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-database.person.service.PersonServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restControllers.CarTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restControllers.ClearTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restControllers.PersonTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restControllers.PersonWithCarsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restControllers.StatisticsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/database.auto.service.AutoServiceTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/database.person.service.PersonServiceTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/restControllers.CarTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/restControllers.ClearTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/restControllers.PersonTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/restControllers.PersonWithCarsTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/restControllers.StatisticsTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/database/auto/service/AutoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/database/auto/service/AutoServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/database/person/service/PersonServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/database/person/service/PersonServiceTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/restControllers/CarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restControllers/CarTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/restControllers/ClearTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restControllers/ClearTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/restControllers/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restControllers/PersonTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/restControllers/PersonWithCarsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restControllers/PersonWithCarsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/restControllers/StatisticsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restControllers/StatisticsTest.class" afterDir="false" />
     </list>
@@ -63,95 +86,8 @@
       <file leaf-file-name="PersonTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
-              <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1594#1595#0" expanded="true" />
-                <element signature="e#1639#1640#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CarTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/CarTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1488#1489#0" expanded="true" />
-                <element signature="e#1589#1590#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Car.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Car.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClearTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/ClearTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonWithCarsTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/PersonWithCarsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1491#1492#0" expanded="true" />
-                <element signature="e#1592#1593#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StatisticsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/StatisticsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonWithCars.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/PersonWithCars.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="71" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="71" />
+            <state relative-caret-position="1241">
+              <caret line="73" column="44" lean-forward="true" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,17 +98,17 @@
       <file leaf-file-name="PersonServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/database/person/service/PersonServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="34">
+              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Person.java">
+      <file leaf-file-name="AutoServiceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/database/auto/service/AutoServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="58" column="37" lean-forward="true" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -238,20 +174,20 @@
         <option value="$PROJECT_DIR$/src/main/resources/web.xml" />
         <option value="$PROJECT_DIR$/src/test/java/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/database/person/service/PersonServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AbstractTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/restControllers/AbstractTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/resources/web.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/database/auto/service/AutoServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/restControllers/ClearTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/restControllers/StatisticsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/restControllers/PersonTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/restControllers/CarTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/restControllers/PersonWithCarsTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/database/person/service/PersonServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/database/auto/service/AutoServiceTest.java" />
       </list>
     </option>
   </component>
@@ -295,8 +231,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="264" />
+    <option name="y" value="-15" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -340,14 +276,61 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="restControllers" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectByMySelf" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectByMySelf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectByMySelf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectByMySelf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectByMySelf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectByMySelf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="restControllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
@@ -384,6 +367,44 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectByMySelf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectByMySelf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectByMySelf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="person" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectByMySelf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="person" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
@@ -462,70 +483,70 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonWithCarsTest.getPersonWithCarsTest">
+  <component name="RunManager" selected="JUnit.AutoServiceTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CarTest.saveCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjectByMySelf" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restControllers.*" />
+          <option name="PATTERN" value="database.auto.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="restControllers" />
-      <option name="MAIN_CLASS_NAME" value="restControllers.CarTest" />
-      <option name="METHOD_NAME" value="saveCarTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CarTest.savePersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjectByMySelf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restControllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="restControllers" />
-      <option name="MAIN_CLASS_NAME" value="restControllers.CarTest" />
-      <option name="METHOD_NAME" value="savePersonTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PersonTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ProjectByMySelf" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restControllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="restControllers" />
-      <option name="MAIN_CLASS_NAME" value="restControllers.PersonTest" />
+      <option name="PACKAGE_NAME" value="database.auto.service" />
+      <option name="MAIN_CLASS_NAME" value="database.auto.service.AutoServiceTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AutoServiceTest.saveAuto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectByMySelf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="database.auto.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="database.auto.service" />
+      <option name="MAIN_CLASS_NAME" value="database.auto.service.AutoServiceTest" />
+      <option name="METHOD_NAME" value="saveAuto" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CarTest.saveNotValidateCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectByMySelf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restControllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="restControllers" />
+      <option name="MAIN_CLASS_NAME" value="restControllers.CarTest" />
+      <option name="METHOD_NAME" value="saveNotValidateCarTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -552,13 +573,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PersonTest.savePersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonTest.saveNotValidatePersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjectByMySelf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restControllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="restControllers" />
       <option name="MAIN_CLASS_NAME" value="restControllers.PersonTest" />
-      <option name="METHOD_NAME" value="savePersonTest" />
+      <option name="METHOD_NAME" value="saveNotValidatePersonTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -569,7 +596,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PersonWithCarsTest.getPersonWithCarsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonWithCarsTest.getPersonWithCarsNotFoundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjectByMySelf" />
       <extension name="coverage">
         <pattern>
@@ -581,7 +608,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="restControllers" />
       <option name="MAIN_CLASS_NAME" value="restControllers.PersonWithCarsTest" />
-      <option name="METHOD_NAME" value="getPersonWithCarsTest" />
+      <option name="METHOD_NAME" value="getPersonWithCarsNotFoundTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -704,19 +731,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="JUnit.PersonTest (1)" />
-      <item itemvalue="JUnit.PersonTest.savePersonTest" />
-      <item itemvalue="JUnit.CarTest.savePersonTest" />
-      <item itemvalue="JUnit.PersonWithCarsTest.getPersonWithCarsTest" />
-      <item itemvalue="JUnit.CarTest.saveCarTest" />
+      <item itemvalue="JUnit.AutoServiceTest.saveAuto" />
+      <item itemvalue="JUnit.AutoServiceTest" />
+      <item itemvalue="JUnit.PersonTest.saveNotValidatePersonTest" />
+      <item itemvalue="JUnit.CarTest.saveNotValidateCarTest" />
+      <item itemvalue="JUnit.PersonWithCarsTest.getPersonWithCarsNotFoundTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersonWithCarsTest.getPersonWithCarsTest" />
-        <item itemvalue="JUnit.CarTest.saveCarTest" />
-        <item itemvalue="JUnit.PersonTest.savePersonTest" />
-        <item itemvalue="JUnit.CarTest.savePersonTest" />
-        <item itemvalue="JUnit.PersonTest (1)" />
+        <item itemvalue="JUnit.AutoServiceTest" />
+        <item itemvalue="JUnit.PersonWithCarsTest.getPersonWithCarsNotFoundTest" />
+        <item itemvalue="JUnit.CarTest.saveNotValidateCarTest" />
+        <item itemvalue="JUnit.PersonTest.saveNotValidatePersonTest" />
+        <item itemvalue="JUnit.AutoServiceTest.saveAuto" />
       </list>
     </recent_temporary>
   </component>
@@ -731,44 +758,44 @@
       <option name="presentableId" value="Default" />
       <updated>1556001338828</updated>
       <workItem from="1556001342368" duration="187043000" />
-      <workItem from="1558508800743" duration="21334000" />
+      <workItem from="1558508800743" duration="34036000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PersonTest_savePersonTest - 2019.05.22 at 16h 06m 28s.xml">
-      <configuration name="PersonTest.savePersonTest" configurationId="JUnit" />
+    <history-entry file="AutoServiceTest_saveAuto - 2019.05.23 at 11h 49m 13s.xml">
+      <configuration name="AutoServiceTest.saveAuto" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CarTest_saveCarTest - 2019.05.22 at 16h 06m 38s.xml">
-      <configuration name="CarTest.saveCarTest" configurationId="JUnit" />
+    <history-entry file="AutoServiceTest - 2019.05.23 at 11h 49m 22s.xml">
+      <configuration name="AutoServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonWithCarsTest_getPersonWithCarsTest - 2019.05.22 at 16h 06m 51s.xml">
-      <configuration name="PersonWithCarsTest.getPersonWithCarsTest" configurationId="JUnit" />
+    <history-entry file="PersonTest_saveNotValidatePersonTest - 2019.05.23 at 11h 53m 03s.xml">
+      <configuration name="PersonTest.saveNotValidatePersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonWithCarsTest_getPersonWithCarsTest - 2019.05.22 at 16h 15m 34s.xml">
-      <configuration name="PersonWithCarsTest.getPersonWithCarsTest" configurationId="JUnit" />
+    <history-entry file="PersonTest_saveNotValidatePersonTest - 2019.05.23 at 11h 53m 47s.xml">
+      <configuration name="PersonTest.saveNotValidatePersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonWithCarsTest_getPersonWithCarsTest - 2019.05.22 at 16h 19m 31s.xml">
-      <configuration name="PersonWithCarsTest.getPersonWithCarsTest" configurationId="JUnit" />
+    <history-entry file="PersonTest_saveNotValidatePersonTest - 2019.05.23 at 11h 54m 01s.xml">
+      <configuration name="PersonTest.saveNotValidatePersonTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonWithCarsTest_getPersonWithCarsTest - 2019.05.22 at 16h 19m 59s.xml">
-      <configuration name="PersonWithCarsTest.getPersonWithCarsTest" configurationId="JUnit" />
+    <history-entry file="CarTest_saveNotValidateCarTest - 2019.05.23 at 11h 55m 28s.xml">
+      <configuration name="CarTest.saveNotValidateCarTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonWithCarsTest_getPersonWithCarsTest - 2019.05.22 at 16h 20m 31s.xml">
-      <configuration name="PersonWithCarsTest.getPersonWithCarsTest" configurationId="JUnit" />
+    <history-entry file="PersonWithCarsTest_getPersonWithCarsNotFoundTest - 2019.05.23 at 11h 58m 04s.xml">
+      <configuration name="PersonWithCarsTest.getPersonWithCarsNotFoundTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonWithCarsTest_getPersonWithCarsTest - 2019.05.22 at 16h 24m 06s.xml">
-      <configuration name="PersonWithCarsTest.getPersonWithCarsTest" configurationId="JUnit" />
+    <history-entry file="PersonWithCarsTest_getPersonWithCarsNotFoundTest - 2019.05.23 at 12h 00m 36s.xml">
+      <configuration name="PersonWithCarsTest.getPersonWithCarsNotFoundTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonWithCarsTest_getPersonWithCarsTest - 2019.05.22 at 16h 27m 41s.xml">
-      <configuration name="PersonWithCarsTest.getPersonWithCarsTest" configurationId="JUnit" />
+    <history-entry file="AutoServiceTest - 2019.05.23 at 13h 49m 38s.xml">
+      <configuration name="AutoServiceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PersonWithCarsTest_getPersonWithCarsTest - 2019.05.22 at 16h 28m 02s.xml">
-      <configuration name="PersonWithCarsTest.getPersonWithCarsTest" configurationId="JUnit" />
+    <history-entry file="AutoServiceTest - 2019.05.23 at 13h 50m 53s.xml">
+      <configuration name="AutoServiceTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208377000" />
+    <option name="totallyTimeSpent" value="221079000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -777,23 +804,23 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50053304" side_tool="true" weight="0.2592179" />
       <window_info anchor="bottom" id="Application Servers" order="1" weight="0.32960895" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.1098081" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.1098081" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.11353944" />
+      <window_info anchor="right" id="Database" order="3" weight="0.11353944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="11" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.27486032" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.27262568" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="15" sideWeight="0.49946696" visible="true" weight="0.28826815" />
+      <window_info anchor="bottom" id="Run" order="15" sideWeight="0.49946696" weight="0.28826815" />
       <window_info anchor="bottom" id="Spring" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Persistence" order="2" sideWeight="0.10166667" side_tool="true" weight="0.2217484" />
@@ -853,94 +880,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <option name="time" value="26" />
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="das://e778fe1b-032a-44fa-b74d-b7d0ac8d84c4/database/TEST/schema/PUBLIC/table/AUTO">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e778fe1b-032a-44fa-b74d-b7d0ac8d84c4/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/dao/AutoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/dao/AutoDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/entities/AutoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/entities/PersonEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/person/dao/PersonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/person/dao/PersonDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="166" selection-start-line="70" selection-start-column="166" selection-end-line="70" selection-end-column="166" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/person/service/PersonServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/CarModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Statistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/java/restControllers/CarTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/test/java/restControllers/ClearTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/test/java/restControllers/PersonWithCarsTest.java" />
@@ -961,26 +908,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/test/PersonTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/PersonTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/web.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Clear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Statistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/PersonModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -999,36 +926,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/person/service/PersonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/service/AutoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/service/AutoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/AbstractTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1041,13 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resources/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1055,10 +945,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-dispatcher.xml">
+    <entry file="das://e778fe1b-032a-44fa-b74d-b7d0ac8d84c4/database/TEST/schema/PUBLIC/table/ADDRESS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e778fe1b-032a-44fa-b74d-b7d0ac8d84c4/database/TEST/schema/PUBLIC/table/AUTO">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e778fe1b-032a-44fa-b74d-b7d0ac8d84c4/database/TEST/schema/PUBLIC/table/USERS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e778fe1b-032a-44fa-b74d-b7d0ac8d84c4/database/TEST/schema/PUBLIC/table/PERSON">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Statistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="40" column="70" selection-start-line="40" selection-start-column="70" selection-end-line="40" selection-end-column="70" />
+        <state relative-caret-position="374">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/service/AutoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/dao/AutoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/entities/AutoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+          <folding>
+            <element signature="e#1656#1657#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1071,56 +1020,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+        <state relative-caret-position="256">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="52" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/database/auto/service/AutoServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/CarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/database/person/service/PersonServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="419">
+          <caret line="92" column="8" lean-forward="true" selection-start-line="92" selection-start-column="8" selection-end-line="93" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://e778fe1b-032a-44fa-b74d-b7d0ac8d84c4/database/TEST/schema/PUBLIC/table/PERSON">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/PersonWithCarsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/StatisticsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="1122">
+          <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1129,30 +1057,145 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/ClearTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="510">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/CarTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/CarModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-            <element signature="e#1589#1590#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/PersonWithCars.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="71" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="71" />
+        <state relative-caret-position="374">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/person/dao/PersonDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/person/dao/PersonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/person/service/PersonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-dispatcher.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="53" column="2" lean-forward="true" selection-start-line="53" selection-start-column="2" selection-end-line="56" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="243" column="32" lean-forward="true" selection-start-line="243" selection-start-column="32" selection-end-line="243" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Clear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/entities/PersonEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/service/AutoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/dao/AutoDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/person/service/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1161,31 +1204,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        <state relative-caret-position="1241">
+          <caret line="73" column="44" lean-forward="true" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
-            <element signature="e#1639#1640#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/database/person/service/PersonServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="34">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/PersonWithCarsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/database/auto/service/AutoServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+        <state relative-caret-position="221">
+          <caret line="58" column="37" lean-forward="true" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1491#1492#0" expanded="true" />
-            <element signature="e#1592#1593#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,18 +1,31 @@
 package restControllers;
 
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectWriter;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import database.auto.service.AutoService;
+import database.person.service.PersonService;
+import model.CarModel;
+import model.PersonModel;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.MockitoAnnotations;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import org.springframework.web.context.WebApplicationContext;
+
+import static org.hamcrest.core.Is.is;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "/applicationContext.xml")
@@ -21,20 +34,60 @@ public class StatisticsTest {
 
     private MockMvc mockMvc;
 
-    @Mock
+    @Autowired
+    private WebApplicationContext webApplicationContext;
+    @Autowired
+    private PersonService personService;
+    @Autowired
     private AutoService autoService;
 
-    @InjectMocks
-    private Statistics statistics;
-
     @Before
-    public void init() {
-        MockitoAnnotations.initMocks(this);
-        mockMvc = MockMvcBuilders.standaloneSetup(statistics).build();
+    public void setUp(){
+        this.mockMvc = MockMvcBuilders.webAppContextSetup(this.webApplicationContext).build();
     }
 
     @Test
-    public void getStatisticsTest() throws Exception {
+    public void getPersonWithCarsTest() throws Exception {
+
+        autoService.clearAuto();
+        personService.clearPerson();
+
+        String uri = "/statistics";
+
+        PersonModel personModel = new PersonModel();
+        personModel.setId((long) 1);
+        personModel.setName("Alex");
+        personModel.setBirthdate("10.10.2000");
+
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.configure(SerializationFeature.WRAP_ROOT_VALUE, false);
+        ObjectWriter ow = mapper.writer().withDefaultPrettyPrinter();
+        String requestJson = ow.writeValueAsString(personModel);
+
+        mockMvc.perform(post("/person").contentType(MediaType.APPLICATION_JSON).content(requestJson).accept(MediaType.APPLICATION_JSON))
+                .andExpect(status().isOk());
+
+        CarModel carModel = new CarModel();
+        carModel.setId((long)1);
+        carModel.setOwnerId(1);
+        carModel.setHorsepower(100);
+        carModel.setModel("BMW-3");
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        mapper.configure(SerializationFeature.WRAP_ROOT_VALUE, false);
+        ObjectWriter objectWriter = objectMapper.writer().withDefaultPrettyPrinter();
+        String jsonCar = objectWriter.writeValueAsString(carModel);
+
+        mockMvc.perform(post("/car").contentType(MediaType.APPLICATION_JSON).content(jsonCar).accept(MediaType.APPLICATION_JSON))
+                .andExpect(status().isOk());
+
+        mockMvc.perform(get(uri))
+                .andExpect(status().isOk())
+                .andExpect(content().contentType(MediaType.APPLICATION_JSON_UTF8))
+                .andExpect(jsonPath("$.personcount", is(1)))
+                .andExpect(jsonPath("$.carcount", is(1)))
+                .andExpect(jsonPath("$.uniquevendorcount", is(1)))
+                .andExpect(status().isOk());
 
     }
 }
