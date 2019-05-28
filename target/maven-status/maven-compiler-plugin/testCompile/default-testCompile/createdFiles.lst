@@ -1,0 +1,7 @@
+restControllers\CarTest.class
+database\person\service\PersonServiceTest.class
+restControllers\ClearTest.class
+database\auto\service\AutoServiceTest.class
+restControllers\PersonTest.class
+restControllers\StatisticsTest.class
+restControllers\PersonWithCarsTest.class

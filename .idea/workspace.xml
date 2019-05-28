@@ -8,39 +8,181 @@
   <component name="ChangeListManager">
     <list default="true" id="59e78267-5c20-4016-ab67-c93cf718f50c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/database/auto/service/AutoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/database/auto/service/AutoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/database/person/service/PersonServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/database/person/service/PersonServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restControllers/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restControllers/CarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restControllers/ClearTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restControllers/ClearTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restControllers/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restControllers/PersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restControllers/PersonWithCarsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restControllers/PersonWithCarsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/restControllers/StatisticsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/restControllers/StatisticsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-database.auto.service.AutoServiceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-database.person.service.PersonServiceTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restControllers.CarTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restControllers.ClearTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restControllers.PersonTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restControllers.PersonWithCarsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-restControllers.StatisticsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/database.auto.service.AutoServiceTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/database.person.service.PersonServiceTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/restControllers.CarTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/restControllers.ClearTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/restControllers.PersonTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/restControllers.PersonWithCarsTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/restControllers.StatisticsTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/database/auto/service/AutoServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/database/auto/service/AutoServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/database/person/service/PersonServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/database/person/service/PersonServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/restControllers/CarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restControllers/CarTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/restControllers/ClearTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restControllers/ClearTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/restControllers/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restControllers/PersonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/restControllers/PersonWithCarsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restControllers/PersonWithCarsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/restControllers/StatisticsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restControllers/StatisticsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/auto/dao/AutoDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/auto/dao/AutoDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/auto/service/AutoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/auto/service/AutoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/entities/AutoEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/entities/PersonEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/person/dao/PersonDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/person/dao/PersonDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/person/service/PersonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/person/service/PersonServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/model/CarModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/model/PersonModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/model/PersonWithCars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/model/Statistics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/restControllers/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/restControllers/Clear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/restControllers/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/restControllers/PersonWithCars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/restControllers/Statistics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/backport-util-concurrent-3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/byte-buddy-1.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/classworlds-1.1-alpha-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/common-tomcat-maven-plugin-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/commons-cli-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/commons-codec-1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/commons-compress-1.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/commons-io-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/commons-lang-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/doxia-sink-api-1.0-alpha-7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/ecj-4.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/guava-10.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/h2-1.4.197.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/hibernate-core-5.4.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/httpclient-4.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/httpcore-4.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/jackson-core-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/jackson-core-asl-1.9.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/jackson-databind-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/jackson-dataformat-xml-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/jackson-module-jaxb-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/jcl-over-slf4j-1.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/jsch-0.1.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/json-20180813.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/jsr305-1.3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/jtidy-4aug2000r7-dev.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/maven-archiver-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/maven-artifact-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/maven-artifact-manager-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/maven-core-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/maven-error-diagnostics-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/maven-filtering-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/maven-model-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/maven-monitor-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/maven-plugin-api-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/maven-plugin-descriptor-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/maven-plugin-parameter-documenter-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/maven-plugin-registry-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/maven-profile-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/maven-project-2.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/maven-reporting-api-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/maven-repository-metadata-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/maven-settings-2.0.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/mysql-connector-java-5.1.41.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/plexus-archiver-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/plexus-build-api-0.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/plexus-classworlds-2.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/plexus-component-annotations-1.5.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/plexus-container-default-1.0-alpha-9-stable-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/plexus-interactivity-api-1.0-alpha-4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/plexus-interpolation-1.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/plexus-io-2.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/plexus-utils-3.0.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/slf4j-simple-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/spring-aop-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/spring-beans-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/spring-context-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/spring-context-support-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/spring-core-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/spring-expression-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/spring-jcl-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/spring-jdbc-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/spring-orm-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/spring-oxm-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/spring-tx-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/spring-web-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/spring-webmvc-5.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/stax2-api-3.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-annotations-api-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-api-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-catalina-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-catalina-ha-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-coyote-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-dbcp-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-el-api-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-embed-core-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-embed-logging-juli-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-embed-logging-log4j-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-jasper-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-jasper-el-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-jdbc-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-jsp-api-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-juli-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-servlet-api-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-tribes-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat-util-7.0.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat7-maven-plugin-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/tomcat7-war-runner-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/wagon-file-1.0-beta-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/wagon-http-lightweight-1.0-beta-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/wagon-http-shared-1.0-beta-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/wagon-provider-api-1.0-beta-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/wagon-ssh-1.0-beta-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/wagon-ssh-common-1.0-beta-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/wagon-ssh-external-1.0-beta-2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/woodstox-core-5.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/xml-apis-1.0.b2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/lib/xz-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/spring-mvc-dispatcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database/auto/dao/AutoDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database/auto/dao/AutoDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database/auto/service/AutoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database/auto/service/AutoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database/entities/AutoEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database/entities/PersonEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database/person/dao/PersonDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database/person/dao/PersonDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database/person/service/PersonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/database/person/service/PersonServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/CarModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/PersonModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/PersonWithCars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Statistics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/restControllers/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/restControllers/Clear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/restControllers/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/restControllers/PersonWithCars.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/restControllers/Statistics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/database/auto/service/AutoServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/database/person/service/PersonServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/restControllers/CarTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/restControllers/ClearTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/restControllers/PersonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/restControllers/PersonWithCarsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/restControllers/StatisticsTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,8 +228,8 @@
       <file leaf-file-name="PersonTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/PersonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="73" column="44" lean-forward="true" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+            <state relative-caret-position="272">
+              <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,20 +237,101 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/database/person/service/PersonServiceTest.java">
+      <file leaf-file-name="ClearTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/ClearTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+            <state relative-caret-position="478">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AutoServiceTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/database/auto/service/AutoServiceTest.java">
+      <file leaf-file-name="CarTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/CarTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="28" column="58" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="58" column="37" lean-forward="true" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+              <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/service/AutoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/database/auto/service/AutoServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="816">
+              <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/dao/AutoDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/database/person/service/PersonServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatisticsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/StatisticsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="478">
+              <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersonWithCarsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/PersonWithCarsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="90" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,7 +372,6 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Statistics.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/auto/dao/AutoDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/auto/service/AutoService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/database/person/dao/PersonDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/person/service/PersonService.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/PersonModel.java" />
@@ -188,6 +410,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/database/person/service/PersonServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/database/auto/service/AutoServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -275,62 +498,7 @@
               <item name="ProjectByMySelf" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectByMySelf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectByMySelf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectByMySelf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectByMySelf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectByMySelf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectByMySelf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="restControllers" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjectByMySelf" type="b2602c69:ProjectViewProjectNode" />
@@ -483,7 +651,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AutoServiceTest">
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -758,7 +926,7 @@
       <option name="presentableId" value="Default" />
       <updated>1556001338828</updated>
       <workItem from="1556001342368" duration="187043000" />
-      <workItem from="1558508800743" duration="34036000" />
+      <workItem from="1558508800743" duration="37067000" />
     </task>
     <servers />
   </component>
@@ -795,11 +963,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221079000" />
+    <option name="totallyTimeSpent" value="224110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50053304" side_tool="true" weight="0.2592179" />
@@ -812,7 +979,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="11" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.27262568" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -820,11 +987,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="15" sideWeight="0.49946696" weight="0.28826815" />
+      <window_info anchor="bottom" id="Run" order="15" sideWeight="0.49946696" visible="true" weight="0.28826815" />
       <window_info anchor="bottom" id="Spring" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Persistence" order="2" sideWeight="0.10166667" side_tool="true" weight="0.2217484" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8983333" visible="true" weight="0.2238806" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8983333" visible="true" weight="0.2238806" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -888,7 +1055,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/restControllers/CarTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/test/java/restControllers/ClearTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/test/java/restControllers/PersonWithCarsTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/test/java/restControllers/StatisticsTest.java" />
@@ -908,24 +1074,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/test/PersonTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/PersonTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/web.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/PersonModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/resources/hibernate.cfg.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/PersonWithCars.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/AbstractTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -973,41 +1122,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Statistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/service/AutoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/dao/AutoDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/entities/AutoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
-          <folding>
-            <element signature="e#1656#1657#0" expanded="true" />
-            <element signature="e#1694#1695#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1018,57 +1136,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="52" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/CarTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-dispatcher.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
-          <caret line="92" column="8" lean-forward="true" selection-start-line="92" selection-start-column="8" selection-end-line="93" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="53" column="2" lean-forward="true" selection-start-line="53" selection-start-column="2" selection-end-line="56" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/PersonWithCarsTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="243" column="32" lean-forward="true" selection-start-line="243" selection-start-column="32" selection-end-line="243" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/StatisticsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/ClearTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/CarModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="-153">
+          <caret line="3" column="58" lean-forward="true" selection-start-line="3" selection-start-column="58" selection-end-line="3" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -1082,10 +1167,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/PersonWithCars.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Clear.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1102,20 +1187,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/person/dao/PersonDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/PersonWithCars.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+        <state relative-caret-position="374">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/person/dao/PersonDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Statistics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="374">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/PersonWithCars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/PersonModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/CarModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1135,63 +1254,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-mvc-dispatcher.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="53" column="2" lean-forward="true" selection-start-line="53" selection-start-column="2" selection-end-line="56" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="243" column="32" lean-forward="true" selection-start-line="243" selection-start-column="32" selection-end-line="243" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/restControllers/Clear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/entities/PersonEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/service/AutoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/dao/AutoDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/database/person/service/PersonService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1202,10 +1264,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/PersonTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/person/dao/PersonDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="44" lean-forward="true" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+        <state relative-caret-position="961">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/person/dao/PersonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/entities/PersonEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/entities/AutoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="886">
+          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+          <folding>
+            <element signature="e#1656#1657#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/service/AutoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/service/AutoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/database/auto/dao/AutoDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/database/auto/service/AutoServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1214,18 +1340,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/database/person/service/PersonServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/database/auto/service/AutoServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="58" column="37" lean-forward="true" selection-start-line="58" selection-start-column="37" selection-end-line="58" selection-end-column="37" />
+        <state relative-caret-position="85">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/StatisticsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="92" column="1" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/PersonWithCarsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/ClearTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/restControllers/CarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
         </state>
       </provider>
     </entry>
